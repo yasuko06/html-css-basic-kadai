@@ -1,0 +1,69 @@
+
+
+/* bodyのフォント種類を、「"Arial/", "Meiryo", sans-serif」にします。*/
+/*ルート要素のフォントサイズを20pxにし、h1はその2倍にします。*/
+/* テキストは全て中央寄せにしてください。 */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+/*h1のフォントには、Googleフォント「Josefin Sans」を使用してください。総称フォントは「sans-serif」を使用してください。*/
+/*ルート要素のフォントサイズを20pxにし、h1はその2倍にします。*/
+/*MY PROFILE」の「M」をスカイブルーに、「P」をピンクにしてください。文字色はスカイブルーをキーワードで、ピンクをrgb(255, 192, 203)として指定します。
+*/
+/* h1の文字間は文字の大きさの1.2倍にしてください。 */
+/*  h1に影を付けてください。影の大きさや色は自由です。*/
+/*  h1の下に3px（カラー：rgb(115, 115, 114)）の実線を付けてください。*/
+
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(21, 2, 2);
+    border-bottom: solid 3px rgb(115, 115, 114);
+
+}
+
+.decoration {
+    letter-spacing: 1.2em;
+}
+ 
+
+
+
+
+
+/* 先に指定したピンク、スカイブルーと同じ色を次の要素にも指定してください。
+「名前」「血液型」「好きな食べ物」の見出しにはピンク
+「生年月日」「趣味」「プログラミングを始めた理由」の見出しにはスカイブルー
+☆ヒント：効率よく同じCSSを使いまわすには、クラスを使うと便利です。
+その他*/
+/* 「名前」～「血液型」までの要素をid属性basicのdivタグで囲います。
+次に子孫要素の考え方を利用して「侍太郎」「1990年1月1日」「O型」を太字にしてください。それ以外のp要素は太字にならないよう注意してください。
+ */
+
+#first-heading, #third-paragraph, #fifth-paragraph{
+    /* 以下はRGBで色を指定しています */
+    color: rgb(255, 192, 203);
+}
+
+
+#second-paragraph, #forth-paragraph, #sixth-paragraph{
+    color: skyblue;
+}
+
+
+.parent {
+ font-weight: bold;   
+  }
+
+.child {
+font-weight: bold; 
+}
+
+.grandchild {
+ font-weight: bold;
+}
