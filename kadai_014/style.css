@@ -1,13 +1,11 @@
-
-
 /* bodyのフォント種類を、「"Arial/", "Meiryo", sans-serif」にします。*/
 /*ルート要素のフォントサイズを20pxにし、h1はその2倍にします。*/
 /* テキストは全て中央寄せにしてください。 */
 body {
     font-family: "Arial", "Meiryo", sans-serif;
     text-align: center;
-    
-    
+
+
 }
 
 /*h1のフォントには、Googleフォント「Josefin Sans」を使用してください。総称フォントは「sans-serif」を使用してください。*/
@@ -20,7 +18,7 @@ body {
 
 
 h1 {
-    font-family: "Josefin Sans";
+    font-family: "sans-serif";
     text-shadow: 1px 1px 2px rgb(21, 2, 2);
     border-bottom: solid 3px rgb(115, 115, 114);
     font-size: 2rem;
@@ -29,7 +27,7 @@ h1 {
 .decoration {
     letter-spacing: 1.2em;
 }
- 
+
 /* 先に指定したピンク、スカイブルーと同じ色を次の要素にも指定してください。
 「名前」「血液型」「好きな食べ物」の見出しにはピンク
 「生年月日」「趣味」「プログラミングを始めた理由」の見出しにはスカイブルー
@@ -39,25 +37,30 @@ h1 {
 次に子孫要素の考え方を利用して「侍太郎」「1990年1月1日」「O型」を太字にしてください。それ以外のp要素は太字にならないよう注意してください。
  */
 
-#first-heading, #third-paragraph, #fifth-paragraph{
+#first-heading,
+#third-paragraph,
+#fifth-paragraph {
     /* 以下はRGBで色を指定しています */
     color: rgb(255, 192, 203);
 }
 
 
-#second-paragraph, #forth-paragraph, #sixth-paragraph{
+#second-paragraph,
+#forth-paragraph,
+#sixth-paragraph {
     color: skyblue;
 }
 
 
 .parent {
- font-weight: bold;   
-  }
-
-.child {
-font-weight: bold; 
+    font-weight: bold;
 }
 
+.child {
+    font-weight: bold;
+}
+
+
 .grandchild {
- font-weight: bold;
+    font-weight: bold;
 }
