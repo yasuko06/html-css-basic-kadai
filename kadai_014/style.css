@@ -21,7 +21,7 @@ h1 {
     font-family: "sans-serif";
     text-shadow: 1px 1px 2px rgb(21, 2, 2);
     border-bottom: solid 3px rgb(115, 115, 114);
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .decoration {
@@ -36,7 +36,7 @@ h1 {
 /* 「名前」～「血液型」までの要素をid属性basicのdivタグで囲います。
 次に子孫要素の考え方を利用して「侍太郎」「1990年1月1日」「O型」を太字にしてください。それ以外のp要素は太字にならないよう注意してください。
  */
-
+#pink,
 #first-heading,
 #third-paragraph,
 #fifth-paragraph {
@@ -44,23 +44,13 @@ h1 {
     color: rgb(255, 192, 203);
 }
 
-
+#blue,
 #second-paragraph,
 #forth-paragraph,
 #sixth-paragraph {
     color: skyblue;
 }
 
-
-.parent {
-    font-weight: bold;
-}
-
-.child {
-    font-weight: bold;
-}
-
-
-.grandchild {
+#basic p {
     font-weight: bold;
 }

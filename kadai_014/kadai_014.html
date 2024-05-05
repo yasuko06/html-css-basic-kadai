@@ -10,18 +10,21 @@
 </head>
 
 <body>
-   <h1 class="decoration"><span id="second-paragraph">M</span>Y<span id="first-heading">P</span>ROFILE</h1>
-   <h2 id="first-heading">名前</h2>
-   <p class="parent">侍 太郎</p>
+   <!--「侍太郎」「1990年1月1日」「O型」が太字になっている（それ以外のp要素は太字ではないことが条件）
+「名前」～「血液型」までの要素をid属性basicのdivタグで囲います。次に子孫要素の考え方を利用して「侍太郎」「1990年1月1日」「O型」を太字にしてください。
+それ以外のp要素は太字にならないよう注意してください。-->
 
-   <h2 id="second-paragraph">生年月日</h2>
-   <p class="child">1990年1月1日</p>
+   <h1 class="decoration"><span id="pink">M</span>Y<span id="blue">P</span>ROFILE</h1>
+   <div id="basic">
+      <h2 id="first-heading">名前</h2>
+      <p>侍 太郎</p>
 
-   <h2 id="third-paragraph">血液型</h2>
+      <h2 id="second-paragraph">生年月日</h2>
+      <p>1990年1月1日</p>
 
-   <p class="grandchild">O型</p>
-
-
+      <h2 id="third-paragraph">血液型</h2>
+      <p>O型</p>
+   </div>
    <h2 id="forth-paragraph">趣味</h2>
    <p>旅行、読書、ゲーム</p>
 
