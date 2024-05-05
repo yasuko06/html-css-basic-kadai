@@ -19,23 +19,17 @@ body {
 /*  h1の下に3px（カラー：rgb(115, 115, 114)）の実線を付けてください。*/
 
 
-h1{
+h1 {
     font-family: "Josefin Sans";
-    font-size: 40px;
     text-shadow: 1px 1px 2px rgb(21, 2, 2);
     border-bottom: solid 3px rgb(115, 115, 114);
-
+    font-size: 2rem;
 }
 
 .decoration {
     letter-spacing: 1.2em;
 }
  
-
-
-
-
-
 /* 先に指定したピンク、スカイブルーと同じ色を次の要素にも指定してください。
 「名前」「血液型」「好きな食べ物」の見出しにはピンク
 「生年月日」「趣味」「プログラミングを始めた理由」の見出しにはスカイブルー
